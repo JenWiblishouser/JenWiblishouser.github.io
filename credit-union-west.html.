@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jennifer Wiblishouser's marketing leadership case study: Credit Union West brand transformation, growth strategy, and community engagement.">
+  <title>Credit Union West | Jennifer Wiblishouser</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .case-page {
+      background: #f8f6f1;
+      color: #172b40;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      line-height: 1.75;
+    }
+    .case-header {
+      background: #10253b;
+      color: #fff;
+      padding: 26px 7%;
+    }
+    .case-header a {
+      color: #d4b47d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .case-hero {
+      background: #10253b;
+      color: white;
+      padding: 65px 7% 85px;
+    }
+    .case-label {
+      color: #d4b47d;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .case-hero h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1.15;
+      max-width: 900px;
+      margin: 20px 0;
+      color: white;
+    }
+    .case-subtitle {
+      max-width: 720px;
+      color: #dce3ea;
+      font-size: 18px;
+    }
+    .case-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 50px;
+      max-width: 850px;
+      border-top: 1px solid #927b58;
+      padding-top: 30px;
+    }
+    .case-metric strong {
+      display: block;
+      color: #d4b47d;
+      font-size: clamp(32px, 4vw, 52px);
+      line-height: 1.2;
+    }
+    .case-metric span {
+      color: #dce3ea;
+      font-size: 14px;
+    }
+    .case-content {
+      max-width: 950px;
+      margin: auto;
+      padding: 65px 24px 90px;
+    }
+    .case-section {
+      padding: 32px 0;
+      border-bottom: 1px solid #ddd8cc;
+    }
+    .case-section h2 {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      color: #10253b;
+      margin-bottom: 16px;
+    }
+    .case-section p {
+      max-width: 780px;
+      font-size: 17px;
+    }
+    .case-pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 25px;
+    }
+    .case-pillar {
+      background: #fff;
+      border-top: 3px solid #b89b69;
+      padding: 22px;
+      box-shadow: 0 4px 20px #10253b0a;
+    }
+    .case-pillar h3 {
+      color: #10253b;
+      margin-top: 0;
+    }
+    .case-footer {
+      background: #10253b;
+      color: #e3e8ed;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .case-footer a {
+      color: #d4b47d;
+    }
+    @media(max-width: 650px) {
+      .case-metrics, .case-pillars {
+        grid-template-columns: 1fr;
+      }
+      .case-hero { padding: 45px 7%; }
+    }
+  </style>
+</head>
+<body class="case-page">
+
+  <header class="case-header">
+    <a href="index.html">← Jennifer Wiblishouser | Portfolio</a>
+  </header>
+
+  <main>
+    <section class="case-hero">
+      <div class="case-label">Featured Work / 01</div>
+      <h1>Transforming the Brand Experience to Support Growth</h1>
+      <p class="case-subtitle">
+        Credit Union West | Brand Transformation, Integrated
+        Marketing, Business Growth & Community Engagement
+      </p>
+
+      <div class="case-metrics">
+        <div class="case-metric">
+          <strong>13</strong>
+          <span>Branches rebranded</span>
+        </div>
+        <div class="case-metric">
+          <strong>107%</strong>
+          <span>Loan volume growth in Q1</span>
+        </div>
+        <div class="case-metric">
+          <strong>45%</strong>
+          <span>Deposit revenue growth over six months</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="case-content">
+
+      <section class="case-section">
+        <div class="case-label">01 / The Challenge</div>
+        <h2>Preparing a Growing Credit Union for Expansion</h2>
+        <p>
+          Credit Union West was preparing for expansion and
+          needed a consistent brand experience across its
+          branch network. Opportunities to strengthen brand
+          recognition, attract new members, and increase
+          deposits called for a coordinated marketing strategy.
+        </p>
+        <p>
+          The objective was to create a recognizable identity
+          while aligning marketing initiatives with business
+          growth and community engagement.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <div class="case-label">02 / The Strategy</div>
+        <h2>Connecting Brand, Growth, and Community</h2>
+        <p>
+          As Marketing Director, I led a comprehensive
+          marketing approach built around three priorities.
+        </p>
+        <div class="case-pillars">
+          <div class="case-pillar">
+            <h3>Brand Consistency</h3>
+            <p>
+              Establish a unified look and feel across 13
+              branches to strengthen recognition and create
+              a consistent member experience.
+            </p>
+          </div>
+          <div class="case-pillar">
+            <h3>Business Growth</h3>
+            <p>
+              Develop integrated campaigns focused on deposit
+              growth, lending opportunities, and member
+              acquisition.
+            </p>
+          </div>
+          <div class="case-pillar">
+            <h3>Community Engagement</h3>
+            <p>
+              Increase brand visibility and strengthen
+              relationships through community partnerships,
+              sponsorships, and regional events.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="case-label">03 / Leadership & Execution</div>
+        <h2>Bringing the Brand to Life Across 13 Branches</h2>
+        <p>
+          I led the transformation of Credit Union West's
+          physical and visual brand experience, overseeing
+          exterior signage, interior branding, printed
+          marketing materials, and promotional displays.
+        </p>
+        <p>
+          The initiative required coordinating marketing
+          priorities and execution to deliver a cohesive
+          customer-facing experience across the branch network.
+        </p>
+        <p>
+          Alongside the rebrand, I directed marketing
+          initiatives focused on increasing deposits,
+          supporting lending growth, and strengthening
+          relationships with members.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <div class="case-label">04 / Community Impact</div>
+        <h2>Building Relationships Beyond the Branch</h2>
+        <p>
+          Community engagement played an important role in
+          our marketing strategy. I was actively involved in
+          regional events and partnerships, including home
+          shows, Paul's Car Wash benefiting Big Brothers Big
+          Sisters, Luke Days at Luke Air Force Base, and
+          other West Valley community events.
+        </p>
+        <p>
+          These activities connected Credit Union West with
+          local audiences and supported its presence as a
+          community-focused financial institution.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <div class="case-label">05 / Business Outcomes</div>
+        <h2>Supporting Measurable Business Growth</h2>
+        <p>
+          During my marketing leadership tenure, Credit Union
+          West achieved a 107% increase in loan volume in Q1
+          and 45% growth in deposit revenue over six months.
+        </p>
+        <p>
+          The 13-branch rebranding initiative also established
+          a more consistent brand experience to support the
+          credit union's expansion objectives.
+        </p>
+        <p>
+          This work reflects my approach to marketing
+          leadership: aligning brand strategy, customer
+          experience, integrated campaigns, and execution
+          with broader business objectives.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="case-footer">
+    <p>Jennifer Wiblishouser, MBA</p>
+    <p>Marketing Strategy | Product Marketing | Growth & Transformation</p>
+    <a href="index.html">Return to Homepage</a>
+  </footer>
+
+</body>
+</html>
