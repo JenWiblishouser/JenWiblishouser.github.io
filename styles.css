@@ -13,3 +13,16 @@
   z-index: 2;
   border-radius: 0;
 }
+
+/* Remove decorative circles from portrait */
+.hero-art-inner {
+  background-image: none !important;
+}
+
+.hero-art-inner::before,
+.hero-art-inner::after,
+.hero-art::before,
+.hero-art::after {
+  content: none !important;
+  display: none !important;
+}
