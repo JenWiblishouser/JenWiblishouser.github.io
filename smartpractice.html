@@ -25,6 +25,17 @@
 .sp-closing-button:focus-visible{outline:3px solid #fff;outline-offset:4px}
 @media(max-width:650px){.sp-closing{padding:65px 20px 70px}.sp-closing-copy{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.sp-closing-button{transition:none}.sp-closing-button:hover{transform:none}}
+
+/* Compact, intentional footer beneath the closing statement */
+.sp-footer{background:#0b1b2b;border-top:1px solid rgba(212,180,125,.3);padding:25px 0;color:#d9e0e7}
+.sp-footer .sp-wrap{display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}
+.sp-footer-identity{display:flex;flex-direction:column;gap:3px}
+.sp-footer-identity strong{font-size:14px;color:#fff}
+.sp-footer-identity span{font-size:11px;color:#aebbc8}
+.sp-footer-links{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin:0}
+.sp-footer-links a{color:#e4c184;font-size:12px;text-decoration:none}
+.sp-footer-links a:hover{text-decoration:underline}
+@media(max-width:700px){.sp-footer .sp-wrap{justify-content:center;text-align:center}.sp-footer-links{justify-content:center;gap:14px}}
 </style>
 </head>
 <body class="sp-page">
@@ -49,5 +60,5 @@
     <p class="sp-closing-copy">They need customer insight, commercial discipline, and a strategy that turns innovation into meaningful business results.</p>
     <a class="sp-closing-button" href="index.html#impact">← Explore More Featured Work</a>
   </div>
-</section><footer class="sp-footer"><div class="sp-wrap"><p><strong>Jennifer Wiblishouser, MBA</strong></p><p>Product Marketing · Commercial Strategy · Growth &amp; Transformation</p><div class="sp-footer-links"><a href="index.html">← Return to Homepage</a><a href="first-american.html">Explore First American Title →</a><a href="mailto:jwiblishouser@icloud.com">Get in Touch →</a></div></div></footer>
+</section><footer class="sp-footer"><div class="sp-wrap"><div class="sp-footer-identity"><strong>Jennifer Wiblishouser, MBA</strong><span>Product Marketing · Commercial Strategy · Growth &amp; Transformation</span></div><nav class="sp-footer-links" aria-label="Case study footer navigation"><a href="index.html">Home</a><a href="first-american.html">First American Title</a><a href="mailto:jwiblishouser@icloud.com">Get in Touch ↗</a></nav></div></footer>
 </body></html>
