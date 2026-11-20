@@ -1,157 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jennifer Wiblishouser — marketing executive specializing in growth strategy, brand leadership, product marketing, and AI transformation.">
-  <meta name="theme-color" content="#10253b">
-  <title>Jennifer Wiblishouser | Marketing Executive</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jennifer Wiblishouser — marketing executive specializing in growth strategy, brand leadership, product marketing, and AI transformation.">
+<meta name="theme-color" content="#10253b">
+<title>Jennifer Wiblishouser | Marketing Executive</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Homepage additions — scoped to avoid changing existing sections */
+.featured-work{background:#f7f4ed;color:#263648}
+.featured-work .featured-intro{max-width:680px;color:#576270;font-size:15px;line-height:1.8;margin-bottom:35px}
+.featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.featured-card{background:#fffdf8;border:1px solid #ddd6c9;border-radius:9px;padding:28px;display:flex;flex-direction:column;min-height:350px;transition:transform .2s,border-color .2s,box-shadow .2s}
+.featured-card:hover{transform:translateY(-4px);border-color:#b7965b;box-shadow:0 12px 32px rgba(16,37,59,.09)}
+.featured-card .company{color:#96703a;font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase}
+.featured-card h3{font-size:21px;line-height:1.4;margin:20px 0 14px;color:#10253b}
+.featured-card .card-description{font-size:13px;color:#576270;line-height:1.75;margin-bottom:24px}
+.featured-card .card-metric{border-top:1px solid #e4dfd5;padding-top:18px;margin-top:auto;display:flex;align-items:center;gap:12px}
+.featured-card .card-metric strong{font-family:'Playfair Display',Georgia,serif;font-size:40px;line-height:1;color:#a7834d;font-weight:400;white-space:nowrap}
+.featured-card .card-metric span{font-size:12px;line-height:1.5;color:#576270}
+.featured-card .card-link{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:#b7965b;color:#10253b;padding:12px 16px;border-radius:4px;font-weight:700;font-size:12px;margin-top:23px}
+.featured-card .card-link:hover{background:#d0af77}
+.experience-section{background:#fffdf8}
+.experience-heading{max-width:760px}
+.experience-heading p:not(.section-label){color:#576270;line-height:1.8;font-size:15px}
+.career-list{margin-top:38px;border-top:1px solid #ddd6c9}
+.career-item{display:grid;grid-template-columns:210px minmax(0,1fr);gap:35px;padding:25px 0;border-bottom:1px solid #ddd6c9}
+.career-item .career-period{font-size:12px;letter-spacing:.04em;color:#96703a;font-weight:700;padding-top:4px}
+.career-item h3{font-size:18px;color:#10253b;margin:0 0 8px}
+.career-item p{font-size:14px;line-height:1.75;color:#576270;margin:0}
+.career-note{font-size:12px;color:#657180;line-height:1.7;margin-top:20px}
+@media(max-width:900px){.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.career-item{grid-template-columns:160px minmax(0,1fr);gap:24px}}
+@media(max-width:700px){.featured-grid{grid-template-columns:1fr}.featured-card{min-height:auto}.career-item{grid-template-columns:1fr;gap:7px;padding:22px 0}.featured-card .card-metric strong{font-size:36px}}
+@media(prefers-reduced-motion:reduce){.featured-card{transition:none}.featured-card:hover{transform:none}}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="wordmark" href="#home" aria-label="Jennifer Wiblishouser home">JW<span class="wordmark-dot">.</span></a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
-      <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
-        <a href="#about">About</a><a href="#impact">Impact</a><a href="#approach">Leadership</a><a href="#connect">Contact</a>
-        <a class="nav-cta" href="#connect">Let's Connect <span aria-hidden="true">↗</span></a>
-      </nav>
-    </div>
-  </header>
-  <main id="main">
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">
-<span class="eyebrow-line"></span> PRODUCT MARKETING · GROWTH STRATEGY · AI TRANSFORMATION <span class="eyebrow-line"></span></p>
-         <h1>I turn complex<br>business challenges<br>into <em>measurable growth.</em></h1>
-         <p class="hero-description">
-  I'm <strong>Jennifer Wiblishouser</strong>, a marketing executive
-  connecting customer insights, product strategy, technology, and teams
-  to accelerate growth, improve business performance, and lead meaningful change.
-</p>
-          <div class="hero-actions"><a class="btn btn-primary" href="#impact">Explore My Impact <span aria-hidden="true">↗</span></a><a class="btn btn-text" href="#connect">Get in Touch <span aria-hidden="true">→</span></a></div>
-          <p class="availability"><span class="availability-dot"></span> Exploring Senior Manager, Director, & VP opportunities · Phoenix / Remote</p>
-        </div>
-        
-<div class="hero-art" aria-label="Portrait of Jennifer Wiblishouser">
-  <div class="hero-art-border"></div>
- <div class="hero-art-inner" style="padding: 16px; overflow: hidden; background: #172f47; isolation: isolate;">
-    <img
-      src="assets/images/jennifer-headshot.jpg"
-      alt="Jennifer Wiblishouser, marketing executive"
-      
-style="width: 100%; height: 100%; object-fit: cover; object-position: center 35%; display: block; position: relative; z-index: 10;"
-
-    >
-  </div>
-  <div class="art-corner"></div>
-</div>
-
-      </div>
-      <div class="hero-bottom container"><span>SCROLL TO DISCOVER</span><span class="down-arrow" aria-hidden="true">↓</span><span></span></div>
-    </section>
-    <section id="about" class="section section-light">
-      <div class="container about-grid">
-        <div><p class="section-label">ABOUT</p><h2>Experienced leadership.<br><em>Fresh perspective.</em></h2></div>
-        <div class="about-body"><p class="lead">For more than two decades, I've helped organizations connect with customers, unlock growth, and move big ideas forward.</p><p>My background spans financial services, real estate, product and brand marketing, and organizational transformation. I bring an MBA, hands-on experience leading teams and cross-functional initiatives, and a belief that the best strategies work because people believe in them.</p><p>Most recently, my work has expanded into AI engagement and transformation. I also teach marketing at the university level, an experience that keeps me curious and committed to developing others.</p><a class="text-link" href="#approach">My leadership philosophy <span aria-hidden="true">↗</span></a></div>
-      </div>
-    </section>
-    <section id="impact" class="section section-navy">
-      <div class="container"><div class="section-heading"><div><p class="section-label section-label-gold">SELECTED IMPACT</p><h2>Results that <em>speak.</em></h2></div><p class="section-aside">A selection of outcomes from marketing and business growth initiatives I've helped lead.</p></div>
-   
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="wordmark" href="#home" aria-label="Jennifer Wiblishouser home">JW<span class="wordmark-dot">.</span></a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+<nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+<a href="#about">About</a><a href="#impact">Impact</a><a href="#case-studies">Case Studies</a><a href="#experience">Experience</a><a href="#connect">Contact</a>
+<a class="nav-cta" href="#connect">Let's Connect <span aria-hidden="true">↗</span></a>
+</nav></div></header>
+<main id="main">
+<section id="home" class="hero"><div class="container hero-grid">
+<div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> PRODUCT MARKETING · GROWTH STRATEGY · AI TRANSFORMATION <span class="eyebrow-line"></span></p>
+<h1>I turn complex<br>business challenges<br>into <em>measurable growth.</em></h1>
+<p class="hero-description">I'm <strong>Jennifer Wiblishouser</strong>, a marketing executive connecting customer insights, product strategy, technology, and teams to accelerate growth, improve business performance, and lead meaningful change.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="#impact">Explore My Impact <span aria-hidden="true">↗</span></a><a class="btn btn-text" href="#connect">Get in Touch <span aria-hidden="true">→</span></a></div>
+<p class="availability"><span class="availability-dot"></span> Exploring Senior Manager, Director, &amp; VP opportunities · Phoenix / Remote</p></div>
+<div class="hero-art" aria-label="Portrait of Jennifer Wiblishouser"><div class="hero-art-border"></div><div class="hero-art-inner" style="padding:16px;overflow:hidden;background:#172f47;isolation:isolate"><img src="assets/images/jennifer-headshot.jpg" alt="Jennifer Wiblishouser, marketing executive" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;position:relative;z-index:10"></div><div class="art-corner"></div></div>
+</div><div class="hero-bottom container"><span>SCROLL TO DISCOVER</span><span class="down-arrow" aria-hidden="true">↓</span><span></span></div></section>
+<section id="about" class="section section-light"><div class="container about-grid"><div><p class="section-label">ABOUT</p><h2>Experienced leadership.<br><em>Fresh perspective.</em></h2></div><div class="about-body"><p class="lead">For more than two decades, I've helped organizations connect with customers, unlock growth, and move big ideas forward.</p><p>My background spans financial services, real estate, product and brand marketing, and organizational transformation. I bring an MBA, hands-on experience leading teams and cross-functional initiatives, and a belief that the best strategies work because people believe in them.</p><p>Most recently, my work has expanded into AI engagement and transformation. I also teach marketing at the university level, an experience that keeps me curious and committed to developing others.</p><a class="text-link" href="#approach">My leadership philosophy <span aria-hidden="true">↗</span></a></div></div></section>
+<section id="impact" class="section section-navy"><div class="container"><div class="section-heading"><div><p class="section-label section-label-gold">SELECTED IMPACT</p><h2>Results that <em>speak.</em></h2></div><p class="section-aside">A selection of outcomes from marketing and business growth initiatives I've helped lead.</p></div>
 <div class="impact-grid">
-  <article class="impact-card">
-    <span class="impact-index">01</span>
-    <div class="impact-number">650<span>%</span></div>
-    <h3>More Sales Conversations</h3>
-    <p>Increased technology-related customer and prospect conversations through standardized sales enablement toolkits at First American Title.</p>
-    <span class="impact-tag">SALES ENABLEMENT</span>
-  </article>
-
-  <article class="impact-card">
-    <span class="impact-index">02</span>
-    <div class="impact-number">2,000<span>+</span></div>
-    <h3>Launch-Day Sign-Ups</h3>
-    <p>Supported the IgniteRE go-to-market launch, bringing five legacy technologies into a unified customer experience.</p>
-    <span class="impact-tag">PRODUCT MARKETING &amp; GTM</span>
-  </article>
-
-  <article class="impact-card">
-    <span class="impact-index">03</span>
-    <div class="impact-number">~70<span>%</span></div>
-    <h3>Product Gross Margin</h3>
-    <p>Improved gross margin in an internally printed product category through pricing discipline and sales enablement at SmartPractice.</p>
-    <span class="impact-tag">PROFITABILITY &amp; PRICING</span>
-  </article>
-</div>
-
-        <p class="impact-note">Results reflect business outcomes during the relevant initiatives; individual marketing attribution may vary. Additional case studies coming soon.</p>
-        
-
-<div style="display:flex; justify-content:center; flex-wrap:wrap; gap:16px; margin:30px 0 45px;">
-
-  <a href="credit-union-west.html"
-     style="display:inline-block; padding:14px 24px; background:#c4a063; color:#10253b; text-decoration:none; font-weight:600; border-radius:4px; text-align:center;">
-    Credit Union West Case Study →
-  </a>
-
-  <a href="smartpractice.html"
-     style="display:inline-block; padding:14px 24px; background:#c4a063; color:#10253b; text-decoration:none; font-weight:600; border-radius:4px; text-align:center;">
-    SmartPractice Case Study →
-  </a>
-
-  
-<a href="first-american.html"
-   style="display:inline-block; padding:14px 24px; background:#c4a063; color:#10253b; text-decoration:none; font-weight:600; border-radius:4px; text-align:center;">
-  First American Title Case Study →
-</a>
-
-
-</div>
-
-
-      </div>
-    </section>
-    <section id="approach" class="section section-cream"><div class="container approach-grid"><div><p class="section-label">HOW I LEAD</p><h2>Where vision<br>meets <em>momentum.</em></h2><p class="approach-intro">I believe great leadership is equal parts clarity, curiosity, and the ability to bring people together.</p></div><div class="principles"><article><span>01</span><div><h3>Think strategically</h3><p>Connect market insights, customer needs, and business priorities to a clear path forward.</p></div></article><article><span>02</span><div><h3>Lead collaboratively</h3><p>Build trust across teams, translate complexity, and create shared ownership of outcomes.</p></div></article><article><span>03</span><div><h3>Embrace what's next</h3><p>Bring a practical, human-centered approach to innovation, AI adoption, and change.</p></div></article></div></div></section>
-   
-<section class="section video-section">
-  <div class="container video-grid">
-    <div>
-      <p class="section-label">A PERSONAL INTRODUCTION</p>
-      <h2>Beyond the <em>resume.</em></h2>
-      <p>
-        A brief introduction to my experience,
-        perspective, and the kind of opportunity
-        I'm excited to pursue next.
-      </p>
-    </div>
-
-    <div>
-<video
-  controls
-  playsinline
-  preload="metadata"
-  poster="assets/images/Meet Jennifer Wiblishouser.png"
-  style="width:100%; height:auto; border-radius:8px; display:block;"
-  aria-label="Introduction to Jennifer Wiblishouser"
->
-  <source
-    src="assets/videos/portfolio_video_clean_ending.mp4"
-    type="video/mp4"
-  >
-  Your browser does not support HTML5 video.
-</video>
-
-    </div>
-  </div>
-</section>
-
-    <section id="connect" class="section contact-section"><div class="container contact-inner"><p class="section-label section-label-gold">LET'S CONNECT</p><h2>Let's build something<br><em>meaningful.</em></h2><p>I'm exploring senior marketing leadership opportunities in Phoenix and remote roles nationwide. If you're building a brand, a team, or a growth strategy that needs fresh momentum, I'd welcome a conversation.</p><div class="contact-actions"><a class="btn btn-gold" href="https://www.linkedin.com/in/jennifer-wiblishouser" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="mailto:jwiblishouser@icloud.com">Email Me <span aria-hidden="true">↗</span></a></div><p class="setup-note"<p></div></section>
-  </main>
-  <footer class="footer"><div class="container footer-content"><span>JW<span class="wordmark-dot">.</span></span><span>© <span id="year">2026</span> Jennifer Wiblishouser</span><a href="#home">Back to top ↑</a></div></footer>
-  <script src="script.js" defer></script>
-</body>
-</html>
+<article class="impact-card"><span class="impact-index">01</span><div class="impact-number">650<span>%</span></div><h3>More Sales Conversations</h3><p>Increased technology-related customer and prospect conversations through standardized sales enablement toolkits at First American Title.</p><span class="impact-tag">SALES ENABLEMENT</span></article>
+<article class="impact-card"><span class="impact-index">02</span><div class="impact-number">2,000<span>+</span></div><h3>Launch-Day Sign-Ups</h3><p>Supported the IgniteRE go-to-market launch, bringing five legacy technologies into a unified customer experience.</p><span class="impact-tag">PRODUCT MARKETING &amp; GTM</span></article>
+<article class="impact-card"><span class="impact-index">03</span><div class="impact-number">~70<span>%</span></div><h3>Product Gross Margin</h3><p>Improved gross margin in an internally printed product category through pricing discipline and sales enablement at SmartPractice.</p><span class="impact-tag">PROFITABILITY &amp; PRICING</span></article>
+</div><p class="impact-note">Results reflect business outcomes during the relevant initiatives; individual marketing attribution may vary. Explore the case studies below for context.</p></div></section>
+<section id="case-studies" class="section featured-work"><div class="container"><p class="section-label">FEATURED CASE STUDIES</p><h2>The work behind <em>the results.</em></h2><p class="featured-intro">Three examples of how I connect customer insight, marketing strategy, and cross-functional execution to business outcomes. Explore each story for the challenge, approach, and supporting work.</p>
+<div class="featured-grid">
+<article class="featured-card"><span class="company">First American Title</span><h3>Turning technology adoption into business growth</h3><p class="card-description">Unified product marketing, customer adoption, and Sales enablement for customer-facing real estate technology.</p><div class="card-metric"><strong>2,000+</strong><span>IgniteRE sign-ups on launch day</span></div><a class="card-link" href="first-american.html">Explore Case Study <span aria-hidden="true">↗</span></a></article>
+<article class="featured-card"><span class="company">SmartPractice</span><h3>Building profitable products and revitalizing growth</h3><p class="card-description">Applied product P&amp;L ownership, pricing discipline, and customer insights to strengthen category profitability and product performance.</p><div class="card-metric"><strong>~70%</strong><span>Gross margin achieved in an internally printed product category</span></div><a class="card-link" href="smartpractice.html">Explore Case Study <span aria-hidden="true">↗</span></a></article>
+<article class="featured-card"><span class="company">Credit Union West</span><h3>Connecting brand transformation with business growth</h3><p class="card-description">Aligned branch branding, integrated campaigns, and community engagement with broader credit union growth priorities.</p><div class="card-metric"><strong>13</strong><span>Branches rebranded for a more consistent member experience</span></div><a class="card-link" href="credit-union-west.html">Explore Case Study <span aria-hidden="true">↗</span></a></article>
+</div></div></section>
+<section id="experience" class="section experience-section"><div class="container"><div class="experience-heading"><p class="section-label">CAREER EXPERIENCE</p><h2>Where strategy meets <em>execution.</em></h2><p>My experience spans customer-facing technology, financial services, product portfolios, integrated marketing, and university teaching.</p></div>
+<div class="career-list">
+<article class="career-item"><div class="career-period">2020–2026</div><div><h3>First American Title · Marketing Leadership</h3><p>Led product marketing and go-to-market initiatives for real estate technology, sales enablement, voice-of-customer programs, and employee AI engagement.</p></div></article>
+<article class="career-item"><div class="career-period">2018–2020</div><div><h3>Credit Union West · Marketing Leadership</h3><p>Directed integrated marketing, brand consistency across 13 branches, growth initiatives, and community partnerships.</p></div></article>
+<article class="career-item"><div class="career-period">2014–2018</div><div><h3>SmartPractice · Product &amp; Brand Marketing</h3><p>Owned product portfolio strategy, P&amp;L, pricing, profitability, innovation, and cross-functional product marketing execution.</p></div></article>
+<article class="career-item"><div class="career-period">2012–2014</div><div><h3>International Cruise &amp; Excursions · Marketing</h3><p>Led lifecycle and subscription marketing initiatives, email program adoption, and customer engagement strategies.</p></div></article>
+<article class="career-item"><div class="career-period">Additional experience</div><div><h3>UMarketing · Agency &amp; Financial Services Marketing</h3><p>Managed financial services client relationships, marketing programs, proposals, and account growth opportunities.</p></div></article>
+<article class="career-item"><div class="career-period">University teaching</div><div><h3>Grand Canyon University &amp; Bellevue University · Adjunct Professor</h3><p>Teach digital marketing and related courses, with experience designing and improving university-level curricula.</p></div></article>
+</div><p class="career-note">Selected experience overview. Full position history and details are available through LinkedIn.</p></div></section>
+<section id="approach" class="section section-cream"><div class="container approach-grid"><div><p class="section-label">HOW I LEAD</p><h2>Where vision<br>meets <em>momentum.</em></h2><p class="approach-intro">I believe great leadership is equal parts clarity, curiosity, and the ability to bring people together.</p></div><div class="principles"><article><span>01</span><div><h3>Think strategically</h3><p>Connect market insights, customer needs, and business priorities to a clear path forward.</p></div></article><article><span>02</span><div><h3>Lead collaboratively</h3><p>Build trust across teams, translate complexity, and create shared ownership of outcomes.</p></div></article><article><span>03</span><div><h3>Embrace what's next</h3><p>Bring a practical, human-centered approach to innovation, AI adoption, and change.</p></div></article></div></div></section>
+<section class="section video-section"><div class="container video-grid"><div><p class="section-label">A PERSONAL INTRODUCTION</p><h2>Beyond the <em>resume.</em></h2><p>A brief introduction to my experience, perspective, and the kind of opportunity I'm excited to pursue next.</p></div><div><video controls playsinline preload="metadata" poster="assets/images/Meet Jennifer Wiblishouser.png" style="width:100%;height:auto;border-radius:8px;display:block" aria-label="Introduction to Jennifer Wiblishouser"><source src="assets/videos/portfolio_video_clean_ending.mp4" type="video/mp4">Your browser does not support HTML5 video.</video></div></div></section>
+<section id="connect" class="section contact-section"><div class="container contact-inner"><p class="section-label section-label-gold">LET'S CONNECT</p><h2>Let's build something<br><em>meaningful.</em></h2><p>I'm exploring senior marketing leadership opportunities in Phoenix and remote roles nationwide. If you're building a brand, a team, or a growth strategy that needs fresh momentum, I'd welcome a conversation.</p><div class="contact-actions"><a class="btn btn-gold" href="https://www.linkedin.com/in/jennifer-wiblishouser" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="mailto:jwiblishouser@icloud.com">Email Me <span aria-hidden="true">↗</span></a></div></div></section>
+</main><footer class="footer"><div class="container footer-content"><span>JW<span class="wordmark-dot">.</span></span><span>© <span id="year">2026</span> Jennifer Wiblishouser</span><a href="#home">Back to top ↑</a></div></footer>
+<script src="script.js" defer></script>
+</body></html>
