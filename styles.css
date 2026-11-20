@@ -30,3 +30,148 @@
 .impact-index {
   display: none !important;
 }
+
+
+/* =========================================
+   JW PORTFOLIO — DESIGN ENHANCEMENTS
+   Navy · Cream · Gold
+   ========================================= */
+
+/* More balanced homepage headline */
+.hero-grid {
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 55px;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero h1 {
+  font-size: clamp(43px, 4.5vw, 65px);
+  line-height: 1.16;
+  letter-spacing: -0.035em;
+}
+
+.hero h1 em {
+  white-space: normal;
+}
+
+/* Refined portrait */
+.hero-art {
+  transition: transform 0.35s ease;
+}
+
+.hero-art:hover {
+  transform: translateY(-4px);
+}
+
+/* Modern impact cards */
+.impact-grid {
+  gap: 16px;
+  border: none;
+}
+
+.impact-card {
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.035);
+  padding: 35px 28px;
+  min-height: 320px;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+.impact-card + .impact-card {
+  border-left: 1px solid rgba(255,255,255,0.16);
+}
+
+.impact-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--gold);
+  background: rgba(255,255,255,0.065);
+}
+
+.impact-number {
+  font-size: clamp(52px, 5vw, 70px);
+  margin: 5px 0 14px;
+}
+
+.impact-number span {
+  font-size: 0.55em;
+}
+
+.impact-card h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.impact-card p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* Button refinements */
+.btn-primary,
+.btn-gold {
+  border-radius: 4px;
+}
+
+.btn-primary:hover,
+.btn-gold:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+/* Mobile layout refinements */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+    gap: 30px;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 5vw, 55px);
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 9vw, 54px);
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .impact-card {
+    min-height: auto;
+    padding: 30px 25px;
+  }
+
+  .impact-card + .impact-card {
+    border-top: 1px solid rgba(255,255,255,0.16);
+  }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .hero-art,
+  .impact-card {
+    transition: none;
+  }
+
+  .hero-art:hover,
+  .impact-card:hover {
+    transform: none;
+  }
+}
+
